@@ -38,8 +38,12 @@
   &-Social {
     margin-top: 35px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    @include MQ(lg) {
+      justify-content: flex-start;
+    }
     a {
+      margin-right: 20px;
       svg {
         color: #8D8D8D;
         font-size: 30px;

@@ -8,12 +8,6 @@
       left: 0;
       right: 0;
     }
-    .owl-dots {
-      margin-top: 15px;
-      @include MQ(lg) {
-        display: none !important;
-      }
-    }
     .material-icons {
       color: #B7B7B7;
     }
@@ -24,6 +18,12 @@
     .owl-next {
       position: absolute;
       right: -40px;
+    }
+  }
+  .owl-dots {
+    margin-top: 15px;
+    @include MQ(lg) {
+      display: none !important;
     }
   }
 }

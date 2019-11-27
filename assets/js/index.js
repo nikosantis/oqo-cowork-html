@@ -10,7 +10,7 @@ carou1.owlCarousel({
     dots:false,
     nav:false,
     autoplay:true,
-    autoplayTimeout:6000,
+    autoplayTimeout:10000,
     smartSpeed: 1000
 })
 
@@ -21,7 +21,7 @@ carou2.owlCarousel({
     dots:false,
     nav:false,
     autoplay:true,
-    autoplayTimeout:4000,
+    autoplayTimeout:10000,
     smartSpeed: 700
 })
 
