@@ -1,0 +1,18 @@
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #ffffff;
+  @include MQ(lg) {
+    font-size: 40px;
+  }
+}
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+  @include MQ(lg) {
+    font-size: 40px;
+  }
+}

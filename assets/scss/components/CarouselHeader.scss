@@ -1,0 +1,23 @@
+.CarouselHeader {
+  height: 100vh;
+  .item {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    text-align: center;
+    @include MQ(lg) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 0;
+      text-align: left;
+    }
+  }
+}

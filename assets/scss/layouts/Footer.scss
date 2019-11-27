@@ -1,0 +1,53 @@
+.Footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #000000;
+  text-align: center;
+  @include MQ(lg) {
+    text-align: left;
+  }
+  &-Logo {
+    margin-bottom: 50px;
+    @include MQ(lg) {
+      margin: 0;
+    }
+  }
+  h3 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  ul {
+    margin-bottom: 50px;
+    @include MQ(lg) {
+      margin: 0;
+    }
+    li {
+      a {
+        color: #8D8D8D;
+        font-size: 16px;
+        font-weight: 500;
+        &:hover {
+          color: #f1f1f1;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  &-Social {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    a {
+      svg {
+        color: #8D8D8D;
+        font-size: 30px;
+      }
+
+      &:hover svg {
+        color: #f1f1f1;
+      }
+    }
+  }
+}

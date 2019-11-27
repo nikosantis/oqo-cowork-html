@@ -1,0 +1,26 @@
+.SeparatorView {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  h2 {
+    color: #ffffff;
+    margin-bottom: 35px;
+    text-align: center;
+    @include MQ(lg) {
+      text-align: left;
+    }
+  }
+  p {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    @include MQ(lg) {
+      text-align: left;
+    }
+  }
+}

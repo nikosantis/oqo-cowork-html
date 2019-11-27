@@ -1,0 +1,29 @@
+.SeparatorIntro__Carousel {
+  .owl-nav {
+    display: none;
+    @include MQ(lg) {
+      display: block;
+      position: absolute;
+      bottom: 60%;
+      left: 0;
+      right: 0;
+    }
+    .owl-dots {
+      margin-top: 15px;
+      @include MQ(lg) {
+        display: none !important;
+      }
+    }
+    .material-icons {
+      color: #B7B7B7;
+    }
+    .owl-prev {
+      position: absolute;
+      left: -40px;
+    }
+    .owl-next {
+      position: absolute;
+      right: -40px;
+    }
+  }
+}

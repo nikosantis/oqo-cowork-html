@@ -1,0 +1,13 @@
+{
+  "name": "oqo-cowork",
+  "version": "0.1.0",
+  "description": "Landing de OQO CoWork",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --include-path scss assets/scss/main.scss assets/css/main.css --output-style compressed --source-map true --source-map-embed true",
+    "build:css": "nodemon -e scss -x \"npm run scss\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikolas Santis",
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+.SeparatorPrice{
+  background: #000000;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+    strong {
+      font-weight: 700;
+    }
+    @include MQ(lg) {
+      font-size: 36px;
+    }
+  }
+}
